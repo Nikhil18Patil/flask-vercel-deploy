@@ -13,6 +13,5 @@ json5==0.9.24
 jsonpointer==2.4
 jsonschema==4.21.1
 jsonschema-specifications==2023.12.1
-mysql==0.0.3
-mysql-connector-python==8.4.0
+
 
