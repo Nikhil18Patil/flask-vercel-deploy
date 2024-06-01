@@ -19,7 +19,7 @@ class User(Base):
    
 
 # Create an engine that stores data in the local directory's 'attendance_system.db' file.
-engine = create_engine('sqlite:///user.db')
+engine = create_engine('psql "postgres://default:8vUsAu3xfJXz@ep-winter-scene-a4xz2rej.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require"')
 
 # Bind the engine to the metadata of the Base class so that the declaratives can be accessed through a DBSession instance
 Base.metadata.bind = engine
